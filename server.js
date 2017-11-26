@@ -8,7 +8,7 @@ app.set('views', './views');
 var rr = require('./routes/index.js');
 
 app.use(express.static('./public/'));
-app.use(require('./routes/index'));
+app.use(rr);
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
 app.use(require('./routes/infoapi'));
