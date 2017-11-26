@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 app.use(express.static('./public/'));
-app.use(require('./routes/index'));
+app.use(require('./routes/index.js'));
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
 app.use(require('./routes/infoapi'));
