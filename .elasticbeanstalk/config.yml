@@ -1,6 +1,7 @@
 branch-defaults:
   master:
-    environment: Akshaydeshpande-env
+    environment: app-dev
+    group_suffix: null
 environment-defaults:
   Akshaydeshpande-env:
     branch: null
